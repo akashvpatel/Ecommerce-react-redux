@@ -1,0 +1,22 @@
+.products h2 {
+  color: rgb(0, 0, 0);
+  margin: 1rem auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.productlist {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  margin: 0% 10%;
+  list-style: none;
+}
+
+@media (max-width: 900px) {
+  .productlist {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

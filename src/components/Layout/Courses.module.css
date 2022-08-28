@@ -1,0 +1,16 @@
+.header {
+    background-color: #ffffff;
+    margin: 0 10%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.text {
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+}

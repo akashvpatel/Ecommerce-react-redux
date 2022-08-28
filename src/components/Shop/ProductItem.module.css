@@ -1,0 +1,43 @@
+.item h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.price {
+  border-radius: 30px;
+  padding: 0.15rem 0.5rem;
+  background-color: #3a3a3a;
+  color: white;
+  font-size: 1.5rem;
+
+}
+
+.item p {
+  color: #3a3a3a;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.product-list {
+  display: flexbox;
+}
+
+.card {
+  margin: 1rem ;
+  border-radius: 6px solid black;
+  background-color: white;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+ 
+}
